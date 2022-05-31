@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App .contenedor {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 100%);
+  border-radius: 10px;
+}
+
+.cardFrase {
+  font-size: 28px;
+}
+
+.cardAutor {
+  font-size: 22px;
+  text-align: end;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.button {
+  display: block;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  align-self: flex-end;
+  box-shadow: 1px 1px 5px 0 #000;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 #000;
+  transition: box-shadow 200ms ease;
+}
